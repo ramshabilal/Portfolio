@@ -29,11 +29,6 @@ This portfolio is built using a react templare from [Chetan Verma](https://githu
 - TailwindCSS
 
 
-## Contributors
-[@Aryan3212](https://github.com/Aryan3212) [@achu-krishna](https://github.com/achu-krishna)
-
-
-
 
 
 
