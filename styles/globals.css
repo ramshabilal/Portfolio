@@ -9,7 +9,7 @@
 }
 
 body {
-  @apply dark:bg-black dark:text-white;
+  @apply dark:bg-black dark:text-white
 }
 
 .gradient-circle {
@@ -75,3 +75,17 @@ body {
   background: inherit;
   border-radius: inherit;
 }
+
+.header-container {
+  display: flex;
+  align-items: flex-start; /* Align items at the start of the container */
+}
+
+.header-texts {
+  flex: 1; /* Take up available space */
+}
+
+.header-container img {
+  margin-left: 20px; /* Space between text and image */
+}
+
