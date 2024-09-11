@@ -10,6 +10,7 @@ import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
+import Typical from 'react-typical'; 
 
 // Local Data
 import data from "../data/portfolio.json";
@@ -90,18 +91,28 @@ export default function Home() {
                 >
                   {data.headerTaglineFour}
                 </h1>
+
+                {/* <div
+                ref={textFour} 
+                className="typewriter">
+                  {data.headerTaglineFour}
+                </div> */}
+
+                {/* <h1
+                  ref={textFour}
+                  className="typewriter text-lg tablet:text-2xl laptop:text-2xl laptopl:text-2xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+                >
+                  {data.headerTaglineFour}
+                </h1> */}
+
+
               </div>
-              {/* <img
-                src="/images/coder.png"
-                alt="Header Image"
-                className="w-48 h-48 object-cover rounded"
-              /> */}
           </div>
 
           <Socials className="mt-2 laptop:mt-5" />
         </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
-          <h1 className="text-2xl text-bold">Work.</h1>
+          <h1 className="text-2xl text-bold">Projects.</h1>
 
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-4 gap-0"> 
             {/* cols 2 gap 4 */}

@@ -89,3 +89,22 @@ body {
   margin-left: 20px; /* Space between text and image */
 }
 
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+/* Blinking cursor effect */
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+/* Container class for typewriter effect */
+.typewriter {
+  font-family: 'Courier', monospace; /* You can change the font if needed */
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid; /* Simulates the cursor */
+  width: 0; /* Start width to trigger typing animation */
+  animation: typing 4.5s steps(40, end), blink 0.75s step-end infinite; /* Adjust timing as needed */
+}
